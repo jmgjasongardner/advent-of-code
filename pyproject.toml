@@ -1,0 +1,15 @@
+[project]
+name = "advent-of-code"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "jgardner", email = "jgardner@technomics.net"},
+]
+dependencies = ["polars>=1.17.1"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
